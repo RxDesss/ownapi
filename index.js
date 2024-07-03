@@ -2,8 +2,8 @@
 const express=require('express');
 const app=express();
 
-const products=require('./routes/product');
-const orders=require('./routes/order');
+const products=require('./Routes/product');
+const orders=require('./Routes/order');
 
 app.use('/api/v1/',products);
 app.use('/api/v1',orders);
